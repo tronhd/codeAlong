@@ -24,3 +24,15 @@ function printPrimes(){
     }
 }
 printPrimes();
+
+
+function printPrimes(){
+    for(var i=0; i<100;i++){
+      if(i==1||i==2||i==3||i==5){
+        console.log(i);
+      } else if(i%2 !=0|| i%3 !=0|| i%5 !=0){
+          console.log(i);
+      }   else console.log(i);
+    }
+  }
+function printPrimes();
